@@ -1,4 +1,3 @@
-import { clearCode } from "./actions";
 import { ADD_CODE, CLEAR_CODE, SET_LOCKED } from "./constants";
 
 export interface IAppState {
@@ -8,10 +7,10 @@ export interface IAppState {
 
 const initialState = {
   code: [],
-  locked: false
+  locked: true
 };
 
-function rootReducer(state = initialState, action: any) {
+const rootReducer = (state = initialState, action: any) => {
   if (action.type ===  ADD_CODE) {
     return Object.assign({}, state, {
       code: state.code.concat(action.payload)
