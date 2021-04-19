@@ -1,0 +1,10 @@
+.lock {
+  width: 140px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: green;
+}
+.lock.locked {
+  background-color: coral;
+}

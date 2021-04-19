@@ -1,0 +1,7 @@
+.keypad {
+  width: 200px;
+}
+
+.keypad .key {
+  width: 60px;
+}
