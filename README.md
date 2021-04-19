@@ -8,7 +8,7 @@ Running the project requires npm to be installed. Also run `npm install` in both
 
 ## Server
 
-Server is located in the server `directory`. It can be started by changing to the server directory and running:
+Server is located in the `server` directory. It can be started by changing to the server directory and running:
 
 ### `npm start`
 
